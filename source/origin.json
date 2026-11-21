@@ -18,6 +18,7 @@
   "files": 27,
   "payload_bytes": 7695117,
   "roundtrip_verified": true,
+  "official_gmad_verified": true,
   "packaging_exclusions": [
     "models/dark/wolf/bigbadwolf.sw.vtx"
   ]

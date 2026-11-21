@@ -1,12 +1,11 @@
 {
-  "ignore": [
-    "models/dark/wolf/bigbadwolf.sw.vtx"
-  ],
+  "title": "[PILL PACK] The Big Bad Wolf",
+  "type": "npc",
   "tags": [
     "fun",
-    "roleplay",
-    "scenic"
+    "roleplay"
   ],
-  "title": "[PILL PACK] The Big Bad Wolf",
-  "type": "npc"
+  "ignore": [
+    "models/dark/wolf/bigbadwolf.sw.vtx"
+  ]
 }

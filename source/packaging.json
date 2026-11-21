@@ -4,6 +4,9 @@
   "excluded_files": [
     "models/dark/wolf/bigbadwolf.sw.vtx"
   ],
-  "reason": "Unused software/Xbox model variants excluded by official GMod whitelist; original bytes remain in addon/ and Git.",
-  "reference": "https://github.com/Facepunch/gmad/blob/master/include/AddonWhiteList.h"
+  "package_tags": [
+    "fun",
+    "roleplay"
+  ],
+  "verified_with": "gmad create + SHA-256 por arquivo"
 }
