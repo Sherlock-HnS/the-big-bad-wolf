@@ -1,0 +1,164 @@
+[
+  {
+    "path": "lua/autorun/include/wolf.lua",
+    "size": 10766,
+    "crc": 2879436269,
+    "sha256": "8703ef46aa4db6022ca696e3f85f524d986226ef849c29d613f1f1c3a6637999"
+  },
+  {
+    "path": "lua/autorun/pill_basewolf.lua",
+    "size": 1509,
+    "crc": 1881208646,
+    "sha256": "88f46e7fdbd6b5e2ef9317fff94cb8fcfef8058d73784fdc04c46c000caece60"
+  },
+  {
+    "path": "lua/autorun/wolf_animsound.lua",
+    "size": 792,
+    "crc": 1787896741,
+    "sha256": "8a93d19af718a5fc61873c61ee13cdca7664a3af7dd44ab8894baee65f443c7a"
+  },
+  {
+    "path": "materials/icon/foxy_mations.png",
+    "size": 384692,
+    "crc": 427715253,
+    "sha256": "0965469db4a9b19a95b1db43f228978da753594e3cdbe40f0be272e27d196b0c"
+  },
+  {
+    "path": "materials/models/dark/wolf/fur.vmt",
+    "size": 67,
+    "crc": 4057443340,
+    "sha256": "8788e9a764f9723cd700fb75c1b8a5d4084d8bd4c7b0eefc4017d1ee969a25ba"
+  },
+  {
+    "path": "materials/models/dark/wolf/fur.vtf",
+    "size": 349760,
+    "crc": 71043647,
+    "sha256": "101b7f35a5c4e67359f48c2db137b070a21fa2e6c9fbccb504e08fe1ae1212eb"
+  },
+  {
+    "path": "materials/models/dark/wolf/wolf_tex.vmt",
+    "size": 118,
+    "crc": 1750829809,
+    "sha256": "5c4ea0510d57a8039cad1513b1ce7845566d9b2182b6ce70f3157014aa6f36b2"
+  },
+  {
+    "path": "materials/models/dark/wolf/wolf_tex.vtf",
+    "size": 349760,
+    "crc": 3799948435,
+    "sha256": "8d94b21980453eacd98ec81ef13c34bcdc72b4cba9e913b185d28296edb98044"
+  },
+  {
+    "path": "materials/models/dark/wolf/wolfnormal.vtf",
+    "size": 174984,
+    "crc": 3129588072,
+    "sha256": "5f0589432f1028bfecea5feb01f6d6af98a1f3f67582dc00b9a9f5d57f4563d9"
+  },
+  {
+    "path": "materials/pills/pill_bigbadwolf.png",
+    "size": 1414208,
+    "crc": 902777037,
+    "sha256": "b626a7cc5e03c01a43619e781b81c8b26421a4a7929e709aeb1025dac8f57122"
+  },
+  {
+    "path": "models/dark/wolf/bigbadwolf.dx80.vtx",
+    "size": 603074,
+    "crc": 1365296617,
+    "sha256": "14fe63c22ab0ebc7866728bda39c3814747be3b87b1d185236bff327251332b2"
+  },
+  {
+    "path": "models/dark/wolf/bigbadwolf.dx90.vtx",
+    "size": 599241,
+    "crc": 2271614068,
+    "sha256": "8a2496759546c9c4029f4f70fe0863869171077e4da8d40085b95c31d0f3e0b6"
+  },
+  {
+    "path": "models/dark/wolf/bigbadwolf.mdl",
+    "size": 367128,
+    "crc": 817570391,
+    "sha256": "afd683268c0ec5c65bc5f0c1cc974da65c42cb9e4e87e5931f086475ce98a79e"
+  },
+  {
+    "path": "models/dark/wolf/bigbadwolf.phy",
+    "size": 2070,
+    "crc": 1952214345,
+    "sha256": "8333e762fb5fde103c692f25060d71c0c3403fbae88cb62ef1e64a839e387e5b"
+  },
+  {
+    "path": "models/dark/wolf/bigbadwolf.sw.vtx",
+    "size": 598721,
+    "crc": 612279286,
+    "sha256": "49efd377449833e1ed0fef76f15001cfdd7eac3b598beeef270dfcfd2a5f791f"
+  },
+  {
+    "path": "models/dark/wolf/bigbadwolf.vvd",
+    "size": 2190592,
+    "crc": 1454258241,
+    "sha256": "5a6b3260e96c700ab5d1aeaefe460698827fd0c4b096ed8e5ac357dcdc73437c"
+  },
+  {
+    "path": "sound/dark/wolf/footsteps/run1.mp3",
+    "size": 20747,
+    "crc": 2428470180,
+    "sha256": "52cdf73d2a5e7db60d56bc1e5b4056e2a8d12366b595f50727a5223a8f2adbe6"
+  },
+  {
+    "path": "sound/dark/wolf/footsteps/run2.mp3",
+    "size": 18866,
+    "crc": 1870823709,
+    "sha256": "adc4c0d04844ccfda0c8df6db7846d0e840c6b33cb078721094b5d866fe61ab8"
+  },
+  {
+    "path": "sound/dark/wolf/footsteps/run3.mp3",
+    "size": 18866,
+    "crc": 652471711,
+    "sha256": "ffbcb636d366918ea8d59d7c29bf9681fd0bbd09f3ffbc4f74e1f08a94eddba7"
+  },
+  {
+    "path": "sound/dark/wolf/footsteps/run4.mp3",
+    "size": 19493,
+    "crc": 1712674648,
+    "sha256": "bf79720bb158b1e3b125c7f55425999e22f21b2e874c266c876dfa0dbe330665"
+  },
+  {
+    "path": "sound/dark/wolf/footsteps/walk1.mp3",
+    "size": 17612,
+    "crc": 3723998928,
+    "sha256": "44b7d17c2e6b51762ea9ace618cc82f8bc3ca20f7c11b1f2fc5418da604c7047"
+  },
+  {
+    "path": "sound/dark/wolf/footsteps/walk2.mp3",
+    "size": 15104,
+    "crc": 4053039446,
+    "sha256": "131ee3198a18dde750b305a913e114cd4f68e3df1a5b192d19fe578f738ae791"
+  },
+  {
+    "path": "sound/dark/wolf/footsteps/walk3.mp3",
+    "size": 15104,
+    "crc": 3722612582,
+    "sha256": "fe5b2636c796037375170c372a2582b3724fb58de176266b7c639cd125558bfa"
+  },
+  {
+    "path": "sound/dark/wolf/footsteps/walk4.mp3",
+    "size": 19493,
+    "crc": 2928279568,
+    "sha256": "7e4a784350d12d7f0c57031ad521cb41e0355c72305bdd698c96a709d7480f85"
+  },
+  {
+    "path": "sound/dark/wolf/kill1.mp3",
+    "size": 167450,
+    "crc": 2035645654,
+    "sha256": "751871b924f2d3940294579b4037cce8577f2f20beda65e824cd1a9c93d934a3"
+  },
+  {
+    "path": "sound/dark/wolf/kill2.mp3",
+    "size": 167450,
+    "crc": 2554351438,
+    "sha256": "1adf7e6e4108c8ae761181408deb18e2e42b7bc8e47399ded62eb827ccdbc1fd"
+  },
+  {
+    "path": "sound/dark/wolf/kill3.mp3",
+    "size": 167450,
+    "crc": 3429481389,
+    "sha256": "8323d53ca0d19063c44b7acfb1112bf3a1f8b28a9dd848d6401e13bf5d52108f"
+  }
+]

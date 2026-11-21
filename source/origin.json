@@ -1,0 +1,24 @@
+{
+  "id": "3585861957",
+  "name": "the-big-bad-wolf",
+  "title": "[PILL PACK] The Big Bad Wolf",
+  "author": "Eddygar",
+  "status": "extracted_verified",
+  "acquisition": "existing_steam_client_installation",
+  "steamcmd_download_completed": false,
+  "source_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3585861957",
+  "source_archive_sha256": "337d04a381097ece7c590f6e61c1203e819ab9a3b35c360627de1ba49bd60272",
+  "gma_header": {
+    "title": "[PILL PACK] The Big Bad Wolf",
+    "description": "{\"title\":\"[PILL PACK] The Big Bad Wolf\",\"type\":\"npc\",\"tags\":[\"fun\",\"roleplay\",\"scenic\"],\"ignore\":[]}",
+    "author": "Author Name",
+    "steam_id": "0",
+    "timestamp": 1760293609
+  },
+  "files": 27,
+  "payload_bytes": 7695117,
+  "roundtrip_verified": true,
+  "packaging_exclusions": [
+    "models/dark/wolf/bigbadwolf.sw.vtx"
+  ]
+}

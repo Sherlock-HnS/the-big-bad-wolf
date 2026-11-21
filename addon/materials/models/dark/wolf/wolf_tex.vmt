@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/dark/wolf/wolf_tex"
+    "$bumpmap" "models/dark/wolf/WolfNormal"
+}
