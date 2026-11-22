@@ -1,4 +1,4 @@
-[PILL PACK] The Big Bad Wolf
+# [PILL PACK] The Big Bad Wolf
 
 ![Workshop preview](workshop-preview.jpg)
 
