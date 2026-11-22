@@ -76,6 +76,15 @@ pk_pills.register("pill_bigbadwolf",{ -- to give the PILL ITSELF an icon go into
             end
         end
 
+        if SherlockHNS and IsValid(entity) and entity:IsPlayer() then
+            return pk_pills.playHNSJumpscare(ply, ent, entity, 4.8, {
+                camera = "PILLSJUMPCAM",
+                offset = 40,
+                animation = "jumpscare",
+                sound = "jumpscare",
+            })
+        end
+
         if IsValid(entity) then
             local pill = ent:GetPuppet()
 
@@ -294,7 +303,15 @@ noragdoll=true,
     jump=function(ply,ent)
         
     end
-})
+}, function(form)
+    -- The legacy damage branches are for Sandbox and NPCs.
+    form.hnsKillAPI = true
+    form.hnsAbilities = {
+        { id = "attack", name = "Ataque", key = IN_ATTACK, OnUse = form.attack.func },
+        { id = "run", name = "Animação de corrida", key = IN_RELOAD, OnUse = form.reload },
+    }
+    form.attack, form.attack2, form.reload = nil, nil, nil
+end)
 
 
 hook.Add( "PlayerFootstep", "bigbadwolfStepFix", function( ply, pos, foot, sound, volume, rf )
