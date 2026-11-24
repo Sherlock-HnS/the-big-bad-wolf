@@ -64,19 +64,22 @@ pk_pills.register("pill_bigbadwolf",{ -- to give the PILL ITSELF an icon go into
          mode = 'trigger',
     func = function(ply, ent)
         local entity = nil
-
-        -- Find the nearest player or NPC to the trigger entity
-        for k, v in pairs(ents.FindInSphere(ent:LocalToWorld(Vector(0, 0, 50)), 200)) do
-            if v:IsPlayer() or v:IsNextBot() or v:IsNPC() then
-                if v == ent or v == ply then continue end
-                if (v:IsPlayer() and v:Team() ~= TEAM_SPECTATOR) or (v:IsNPC() or v:IsNextBot()) and v:Health() > 0 then
-                    entity = v
-                    break
+local targetOrigin = ent:LocalToWorld(Vector(0, 0, 50))
+if SherlockHNS then
+    entity = SherlockHNS.FindVictim(ply, targetOrigin, 200)
+else
+    for k, v in pairs(ents.FindInSphere(ent:LocalToWorld(Vector(0, 0, 50)), 200)) do
+                if v:IsPlayer() or v:IsNextBot() or v:IsNPC() then
+                    if v == ent or v == ply then continue end
+                    if (v:IsPlayer() and v:Team() ~= TEAM_SPECTATOR) or (v:IsNPC() or v:IsNextBot()) and v:Health() > 0 then
+                        entity = v
+                        break
+                    end
                 end
             end
-        end
+end
 
-        if SherlockHNS and IsValid(entity) and entity:IsPlayer() then
+if SherlockHNS and IsValid(entity) and entity:IsPlayer() then
             return pk_pills.playHNSJumpscare(ply, ent, entity, 4.8, {
                 camera = "PILLSJUMPCAM",
                 offset = 40,
